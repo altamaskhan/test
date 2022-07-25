@@ -1,0 +1,11 @@
+.Que-container{
+    background-color: #FFFAFF;
+    /* padding: 100px;
+    margin:10px 100px; */
+}
+.ques-heading{
+    font-size: 25px;
+    font-family: Poppins;
+    color: #111827;
+    font-weight: 300;
+}

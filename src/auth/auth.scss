@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins-Bold.otf");
+    /* src: url("../assets/fontsPoppins-BoldItalic.otf") format("embedded-opentype"); */
+      /* url("../../assets/fonts/VisueltPro-Regular.woff2") format("woff2"),
+      url("../../assets/fonts/VisueltPro-Regular.woff") format("woff"),
+      url("../../assets/fonts/VisueltPro-Regular.ttf") format("truetype"); */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.Login-Container{
+    padding: 100px;
+}
+
+
+
+.Sub-heading{
+ color: #111827;
+ font-size: 25px;
+
+}
+
+.login_button{
+    background-color:#0A2463;
+    border-radius: 50px;
+    color: #fff;
+    padding: 15px ;
+    width: 100%;
+    font-weight: 600
+
+}
+.heading{
+    color: #111827;
+    font-size: 67px;
+    font-weight: 600;
+    font-family: Poppins;
+    padding: 10px 0px;
+  
+}
+.login-with{
+    background-color:#fff;
+    border-radius: 50px;
+    color: #111827 ;
+    padding: 10px ;
+    width: 100%;
+    border: 1px solid #E1E8F0;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.popupbtton{
+    background-color:#0A2463;
+    border-radius: 50px;
+    color: #fff;
+    padding: 5px ;
+    /* width: 100px; */
+    font-weight: 400;
+    text-align: center;
+}
+
+.login_form{
+    padding: 10px 0px;
+}
+
+@media  screen and (min-width:320px) and ( max-width:"426px") {
+    .image-container{
+        display: none;
+    }
+    .Login-Container{
+        padding: 10px;
+    }
+
+    .heading{
+        font-size: 30px;
+        font-weight: 300;
+    }
+  }
+
+
