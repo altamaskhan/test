@@ -46,12 +46,12 @@ function Login() {
 
     return (
         <>
-            <Grid container spacing={2}>
+            <Grid container spacing={2} className="main-container">
 
                 <Grid item md={6} xs={12}>
                     <Grid container>
                         <Grid className='Login-Container' align="left">
-                            <img src={Logo} alt="logo" />
+                            <img src={Logo} alt="logo" /> 
                             <h4 className="heading" >Login</h4>
                             <h3 className="Sub-heading" >Please Enter Your Valid Mobile Number</h3>
                             <div className="login_form">

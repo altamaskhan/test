@@ -85,16 +85,16 @@ function Login() {
             {/* Registration for start */}
             <Grid container spacing={2}>
                 <Grid item md={6} xs={12}>
-                    <Grid container>
+                    {/* <Grid container> */}
                         <Grid className='Login-Container' align="left">
 
                             <img src={Logo} alt="logo" />
                             <h1 className="heading" >Registraion</h1>
                             {/* <h3 className="Sub-heading" >Please Enter Your Valid Mobile Number</h3> */}
-
+                            <div className="login_form">
                             <form >
                                 <Grid align="center">
-                                <img src={image==''? userIcon : image } style={{borderRadius:"50%", width:"100px", height:"100px"}} />
+                                <img src={image==''? userIcon : image } style={{borderRadius:"50%", width:"100px", height:"100px"}} /><br/><br/>
                                 </Grid>
 
                              
@@ -149,6 +149,7 @@ function Login() {
                                     <button variant="contained" className='login_button'> Submit</button>
                                 </Link>
                             </form>
+                            </div>
                             <br /><br />
                             <button variant="contained" className='login_button' onClick={PopupOpen}> Upload your image</button>
                             <br /><br />
@@ -156,10 +157,12 @@ function Login() {
                                 <p style={{ color: "#D8315B", fontSize: "16px" }}>Or Sign in with Email</p>
                             </Grid>
                         </Grid>
-                    </Grid>
+                    {/* </Grid> */}
                 </Grid>
                 <Grid item md={6} lg={6} sm={12} xs={12}>
-                    <img src={LoginImg} alt="login imag" />
+                <div className="image-container">
+                        <img src={LoginImg} alt="login imag" />
+                    </div>
                 </Grid>
             </Grid>
 

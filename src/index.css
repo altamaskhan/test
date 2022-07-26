@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Card1{
+  height: 256px;
+  /* background-color: red; For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #AF7BFD 39.97% ,#914DF3 100%);
+  border: none;
+  border-radius: 5px;
+
+}
+.Card2{
+  height: 256px;
+  /* background-color: red; For browsers that do not support gradients */
+  background-image:  linear-gradient(to right, #5a8fdf 39.97%, #4f54db 100%);
+  border: none;
+  border-radius: 5px;
+
+}
+.Card3{
+  height: 256px;
+  /* background-color: red; For browsers that do not support gradients */
+  background-image:  linear-gradient(to right, #f8a66c 39.97%, #f88187 100%);
+  border: none;
+  border-radius: 5px;
+
+}
+.Card4{
+  height: 256px;
+  /* background-color: red; For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#3d92cc 39.97%, #0c2968 100%);
+  border: none;
+  border-radius: 5px;
+
+}
+.Card5{
+  height: 256px;
+  /* background-color: red; For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #d8315b 39.97% ,#f67985 100%);
+  border: none;
+  border-radius: 5px;
+
+}
+.Card6{
+  height: 256px;
+  /* background-color: red; For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #38c9aa 39.97% ,#37aa99 100%);
+  border: none;
+  border-radius: 5px;
+
+}
+
+

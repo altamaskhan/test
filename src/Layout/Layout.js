@@ -408,7 +408,7 @@ useEffect(() => {
                     : "menu"
                 }
                 onClick={() => {
-                  history.push("/profile");
+                  // history.push("/profile");
                   // window.location.reload(false);
                 }}
               >
@@ -429,10 +429,10 @@ useEffect(() => {
                     ? "menu active"
                     : "menu"
                 }
-                // onClick={() => {
-                //   logout()
-                //   history.push("/login");
-                // }}
+                onClick={() => {
+                  // logout()
+                  history.push("/login");
+                }}
               >
                 {/* <img crossorigin="anonymous" 
                 src={LogoutIcon} 
